@@ -33,16 +33,16 @@ export default function AcountLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          
           headerShown: false,
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           
         }}
       />
       <Tabs.Screen
-        name="signIn"
+        name="login"
         options={{
-          title: 'signIn',
+          title: 'Login',
+          headerShown: false,
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />

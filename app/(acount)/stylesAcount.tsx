@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 
+const backgroundColorBlue = "#3b63ff"
 export const stylesAcount = StyleSheet.create({
     btnSign: {
         width: 300,
@@ -19,4 +20,22 @@ export const stylesAcount = StyleSheet.create({
         width: 150,
         height: 150
       },
+    imgBookSmall: {
+      width: 130,
+      height: 130
+    },
+    bgBlue: {
+      backgroundColor: backgroundColorBlue
+    },
+    viewInput: {
+      backgroundColor: "#ddd",
+      flex: 1,
+      justifyContent: "center",
+      height: 34,
+      paddingHorizontal: 10,
+      borderRadius: 4
+    },
+    textForgotPassword: {
+      color: "#888",
+    }
 });
