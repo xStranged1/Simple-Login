@@ -10,13 +10,13 @@ const FormLogIn = () => {
 
     return(
         <View style={styles.container}>
-            <View style={{flexDirection: "row"}}>
+            <View style={{flexDirection: "row", width: 230}}>
                 <View style={stylesAcount.viewInput}>
                     <TextInput value={email} placeholder="Email" onChangeText={(value) => setEmail(value)} />
                 </View>
             </View>
             <View style={{marginVertical:10}} />
-            <View style={{flexDirection: "row"}}>
+            <View style={{flexDirection: "row", width: 230}}>
                 <View style={stylesAcount.viewInput}>
                     <TextInput 
                         value={password} 
@@ -27,7 +27,7 @@ const FormLogIn = () => {
                 </View>
             </View>
             <View style={{marginTop: 60}}>
-                <Link href="./login" style={[stylesAcount.btnSign, {backgroundColor: "#3b63ff"}]} asChild>
+                <Link href="./login" style={[stylesAcount.btnLogin, {backgroundColor: "#3b63ff"}]} asChild>
                     <Pressable>
                     <Text style={stylesAcount.textBtn}>Iniciar sesión</Text>
                     </Pressable>

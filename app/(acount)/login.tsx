@@ -12,10 +12,7 @@ export default function IndexScreen() {
       </View>
 
       <View style={{flex: 3}}>
-        {(process.env.EXPO_PUBLIC_KEY) && (
-          <Text>{process.env.EXPO_PUBLIC_KEY}</Text>
-          )
-        }
+        
         
         <FormLogIn />
         

@@ -11,6 +11,15 @@ export const stylesAcount = StyleSheet.create({
         backgroundColor: "#ddd",
         color: "#3b63ff"
       },
+      btnLogin: {
+        width: 230,
+        height: 42,
+        borderRadius: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: "#ddd",
+        color: "#3b63ff"
+      },
     textBtn: {
      color: "#222",
      fontSize: 15,
